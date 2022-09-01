@@ -59,4 +59,16 @@ UPDATE:2022-08-31
 - Cross application call initiated from Order to Inventory service via Spring WebFlux. 
 
 
+## WHAT'S COMING
+- KAFKA based cross application event driven synchronous communication.
+- Spring Security based OAuth login
+- API Gateway for enhance request delegation
+- Docker based application and multi-module support
+- Clusterization with Kubernetes.
+- Basic HTML CSS based FrontEnd
+- Enhanced application Security
+- Circuit Breaker/ Resilience4J
+- Distributed Tracing
+
+
 
