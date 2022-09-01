@@ -48,5 +48,15 @@ RAW: JSON : ARRAY
 
 #### GET: localhost:8081/api/order
 
+## WHAT'S NEW !!!
+### DESIGN
+UPDATE:2022-08-30
+- Application coding initiated
+### Eureka Service
+UPDATE:2022-08-31
+- Eureka Service has been added for Service discovery.
+- Multiple Instance support has been added for Inventory Service.
+- Cross application call initiated from Order to Inventory service via Spring WebFlux. 
+
 
 
