@@ -48,6 +48,17 @@ RAW: JSON : ARRAY
 
 #### GET: localhost:8081/api/order
 
+### Security: Keycloak Settings
+- Install Docker and start it.
+- Open Powershell or terminal and paste following command
+- https://www.keycloak.org/getting-started/getting-started-docker
+- Go to localhost:8181 and create realm
+- Once Realm is created click on Clients and Select Add Client 
+```
+docker run -p 8181:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:19.0.2 start-dev
+```
+
+
 ## WHAT'S NEW !!!
 ### DESIGN
 UPDATE:2022-08-30
