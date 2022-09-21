@@ -48,7 +48,7 @@ RAW: JSON : ARRAY
 
 #### GET: localhost:8081/api/order
 
-### Security: Keycloak Settings
+### Security: Keycloak Settings (Optional)
 - Install Docker and start it.
 - Open Powershell or terminal and paste following command
 - https://www.keycloak.org/getting-started/getting-started-docker
@@ -58,6 +58,10 @@ RAW: JSON : ARRAY
 docker run -p 8181:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:19.0.2 start-dev
 ```
 
+### Resilience4j
+#### What is Resilience4j? 
+- Resilience4j is a lightweight, easy-to-use fault tolerance library inspired by Netflix Hystrix.
+- Documentation: https://resilience4j.readme.io/docs
 
 ## WHAT'S NEW !!!
 ### DESIGN
@@ -68,7 +72,9 @@ UPDATE:2022-08-31
 - Eureka Service has been added for Service discovery.
 - Multiple Instance support has been added for Inventory Service.
 - Cross application call initiated from Order to Inventory service via Spring WebFlux. 
-
+### Resilience4j
+UPDATE:2022-09-20
+- Resilience4j in progress. 
 
 ## WHAT'S COMING
 - KAFKA based cross application event driven synchronous communication.
